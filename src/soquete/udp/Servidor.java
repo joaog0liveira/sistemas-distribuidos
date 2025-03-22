@@ -1,13 +1,10 @@
-package soquete.att1;
+package soquete.udp;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketException;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class Servidor {
     public static void main(String[] args) throws IOException {
